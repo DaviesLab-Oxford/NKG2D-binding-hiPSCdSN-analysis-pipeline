@@ -1,28 +1,26 @@
+'Before running the script, making folder: 1_
 dir = getDirectory("select 'Original images' dir");
 list = getFileList(dir);
 
-dir2 = getDirectory("select 'Soma mask image' folder"); 
-list2 = getFileList(dir2);
-
-dir3 = getDirectory("select 'NKG2D_drawing particles' folder"); 
+dir2 = getDirectory("select 'NKG2D_drawing particles' folder"); 
 
 for(a=0; a<list.length; a++) 
 
 {
-	path = dir + list[a];
-	run("Viewer", "open=[path]");
-	wait(50);
-	imageTitle=getTitle();
+path = dir + list[a];
+run("Viewer", "open=[path]");
+wait(50);
+imageTitle=getTitle();
 	
-	open(dir2+list2[a]);
-	wait(200);
-	imageTitle2=getTitle();
+open(dir2+list2[a]);
+wait(200);
+imageTitle2=getTitle();
 	
-	selectImage(imageTitle);
-	run("Z Project...", "projection=[Max Intensity]");
-    run("Split Channels");
-	selectImage(imageTitle);
-	close;
+selectImage(imageTitle);
+run("Z Project...", "projection=[Max Intensity]");
+run("Split Channels");
+selectImage(imageTitle);
+close;
 	
 selectWindow("C4-MAX_"+imageTitle);
 new_name=replace(imageTitle, "Group:1 Level:1 Area:1", "");
