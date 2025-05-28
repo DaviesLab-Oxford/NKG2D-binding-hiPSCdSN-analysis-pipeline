@@ -4,7 +4,7 @@ This pipeline is for analysing binding density of NKG2D in human iPSC-derived se
 
 Please follow the steps bellow:
 
-Step 1: Automatically measure the area of BtubIII+ axons and count particles within the BtubIII+ axons by running the script 'NKG2D macro_area_particle counting_axons only_HiPSCdSN.ijm'. 
+Step 1: Automatically measure the area of BtubIII+ axons and count particles within the BtubIII+ axons by running the script 'NKG2D macro_area_particle counting_axons only_HiPSCdSN.ijm' in Fiji. 
 
 Step 2: Save 'Summary' containing particle counts and 'Results' containing area of BtubIII+ axons.
 
