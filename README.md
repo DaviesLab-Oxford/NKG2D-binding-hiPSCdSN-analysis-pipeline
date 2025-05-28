@@ -10,4 +10,4 @@ Step 2: Save 'Summary' containing particle counts and 'Results' containing area 
 
 Step 3: Calculate NKG2D+ particle density: 
 
-        Particle density = Particle count / area of BtubIII+ axons.
+        Particle density = particle count / area of BtubIII+ axons.
