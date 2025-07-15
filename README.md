@@ -10,7 +10,7 @@ Step 2: Upload the generated BtubIII+ and segmented images to the folder on Matl
 
 Step 3: Transform mask array into mask images by running script 'NKG2D macro B_Soma_mask.ijm' in Fiji.
 
-Step 4: Automatically measure the area of BtubIII+ axons and count particles within the BtubIII+ axons by running the script 'NKG2D macro_area_particle counting_axons only_HiPSCdSN.ijm' in Fiji. 
+Step 4: Automatically measure the area of BtubIII+ axons and count particles within the BtubIII+ axons by running the script 'NKG2D Macro C_area_particle counting_axons only_HiPSCdSN.ijm' in Fiji. 
 
 Step 5: Save 'Summary' containing particle counts and 'Results' containing area of BtubIII+ axons.
 
